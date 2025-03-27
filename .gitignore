@@ -1,0 +1,61 @@
+# Compiled output
+/dist
+/build
+
+# Dependencies
+/node_modules
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage data
+/coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.code-workspace
+
+# Temporary files
+*~
+\#*
+.*.swp
+.*.swo
+*.bak
+*.tmp
+*.temp
+
+# Express specific
+/public/uploads # If you have an uploads directory
+/sessions # If you use sessions
+/sqlite.db # if you use sqlite
+
+# React Specific
+/build # React build folder
+/public/build # if you build into a public folder
+/coverage # react test coverage
+
+# Optional:
+.DS_Store? # Ignore .DS_Store files, which can be created on macOS
+npm-debug.log
+yarn-debug.log
+/node_modules/*/.bin # ignore binaries in node_modules/.bin
